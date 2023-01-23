@@ -100,6 +100,7 @@ nav a {
 
 .features-container {
     display: flex;
+    justify-content: center;
 
 }
 
@@ -148,15 +149,19 @@ nav a {
 
 /* Another main  Experience section */
 
-.experience-container {
+/* .experience-container {
     display: flex;
     position: relative;
+    justify-content: center;
+    
 
-}
+} */
 
 .experience-info {
-    margin-top: 50px;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
 
 
 }
@@ -168,22 +173,17 @@ nav a {
     font-weight: 700;
     font-size: 40px;
     width: 60%;
-    margin-left: 45px;
     margin-bottom: 24px;
 }
 
-.experience-parts {
-    background: #FFFFFF;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-    border-radius: 8px;
-    margin-left: 40px;
-    margin-bottom: 43px;
-}
+
 
 .experience-title-des {
+    width: 90%;
     font-weight: 400;
     line-height: 24px;
-    margin-left: 22px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .experience-sub-title {
@@ -191,23 +191,30 @@ nav a {
 }
 
 .experience-description {
-    width: 75%;
+    width: 85%;
     font-size: 16px;
     line-height: 24px;
+    margin-bottom: 20px;
 }
-.experience-btn{
-    width: 40%;
+.experience-img{
+  width: 100%;
+  margin-right: 50px;
+ 
+}
+/* .experience-btn{
+    position: absolute;
+    width: 20%;
    height: 100px;
-   margin-left: 600px;
    font-weight: 600;
    font-size: 20px;
     background-color: #FF900E;
     color: #ffffff;
+    right: 0;
     
     border-radius: 8px;
     border: 0;
    
-}
+} */
 
 /* startr facts style */
 
